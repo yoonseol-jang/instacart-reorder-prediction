@@ -1,0 +1,43 @@
+{
+  "metrics": {
+    "threshold": 0.19,
+    "accuracy": 0.9135456772838642,
+    "f1": 0.3428354237932345,
+    "precision": 0.32469402447804174,
+    "recall": 0.36312399355877617,
+    "roc_auc": 0.8165245361538456,
+    "pr_auc": 0.311182589391067,
+    "n_pos_pred": 1389,
+    "n_true_pos": 1242,
+    "per_order_f1": 0.030171390590134357
+  },
+  "config": {
+    "model": "logreg",
+    "mode": "smoke",
+    "tag": "smoke",
+    "best_params": {
+      "penalty": "l2",
+      "C": 1.0,
+      "solver": "saga",
+      "max_iter": 1000,
+      "class_weight": null,
+      "random_state": 42,
+      "n_jobs": -1
+    },
+    "threshold_source": "grouped_validation_split",
+    "validation_metrics": {
+      "threshold": 0.19,
+      "accuracy": 0.9154636575679254,
+      "f1": 0.3506053268765133,
+      "precision": 0.34443387250237867,
+      "recall": 0.35700197238658776,
+      "roc_auc": 0.8217812102714996,
+      "pr_auc": 0.3029836728909761,
+      "n_pos_pred": 1051,
+      "n_true_pos": 1014
+    },
+    "n_train": 79999,
+    "n_test": 19999,
+    "elapsed_s": 34.1
+  }
+}

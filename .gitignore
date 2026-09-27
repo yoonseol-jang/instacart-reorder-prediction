@@ -1,0 +1,27 @@
+# Data (too large — download from Kaggle: https://www.kaggle.com/c/instacart-market-basket-analysis)
+data/
+
+# Model artifacts
+models/
+
+# Logs
+logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+
+# macOS
+.DS_Store

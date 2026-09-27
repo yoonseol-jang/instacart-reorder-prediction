@@ -1,0 +1,39 @@
+{
+  "metrics": {
+    "threshold": 0.45,
+    "accuracy": 0.9166958347917395,
+    "f1": 0.418702023726448,
+    "precision": 0.3694581280788177,
+    "recall": 0.4830917874396135,
+    "roc_auc": 0.8801313639472611,
+    "pr_auc": 0.37645372367284374,
+    "n_pos_pred": 1624,
+    "n_true_pos": 1242,
+    "per_order_f1": 0.04039073256421212
+  },
+  "config": {
+    "model": "adaboost",
+    "mode": "smoke",
+    "tag": "smoke",
+    "best_params": {
+      "n_estimators": 100,
+      "learning_rate": 1.0,
+      "random_state": 42
+    },
+    "threshold_source": "grouped_validation_split",
+    "validation_metrics": {
+      "threshold": 0.45,
+      "accuracy": 0.9138246233373258,
+      "f1": 0.40950323974082076,
+      "precision": 0.36433512682551883,
+      "recall": 0.46745562130177515,
+      "roc_auc": 0.8745106391852872,
+      "pr_auc": 0.3654757769000047,
+      "n_pos_pred": 1301,
+      "n_true_pos": 1014
+    },
+    "n_train": 79999,
+    "n_test": 19999,
+    "elapsed_s": 52.7
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "adaboost": 0.45,
+  "last_basket": 1.0,
+  "logreg": 0.5,
+  "rf": 0.43,
+  "xgboost": 0.47
+}

@@ -1,0 +1,36 @@
+{
+  "metrics": {
+    "threshold": 1.0,
+    "accuracy": 0.7639066666666666,
+    "f1": 0.3701042296609868,
+    "precision": 0.27769177387498,
+    "recall": 0.5547024952015355,
+    "roc_auc": 0.7572613948220567,
+    "pr_auc": 0.24880693870218776,
+    "n_pos_pred": 18733,
+    "n_true_pos": 9378,
+    "per_order_f1": 0.20677038616428867
+  },
+  "config": {
+    "model": "last_basket",
+    "mode": "final",
+    "tag": "final",
+    "rule": "predict reorder iff up_orders_since_last == 0",
+    "opt_thresh": 1.0,
+    "threshold_source": "grouped_validation_split",
+    "validation_metrics": {
+      "threshold": 1.0,
+      "accuracy": 0.7624913982645474,
+      "f1": 0.3774033173478816,
+      "precision": 0.2848698193411265,
+      "recall": 0.5589730222859377,
+      "roc_auc": 0.7572677079251615,
+      "pr_auc": 0.25545650324329433,
+      "n_pos_pred": 15056,
+      "n_true_pos": 7673
+    },
+    "n_train": 300000,
+    "n_test": 75000,
+    "elapsed_s": 19.7
+  }
+}

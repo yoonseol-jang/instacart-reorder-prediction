@@ -1,0 +1,35 @@
+#!/bin/bash
+#SBATCH --job-name=smoke_last_basket
+#SBATCH --account=ds_ga_1003-2026sp
+#SBATCH --partition=n2c48m24
+#SBATCH --requeue
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=20G
+#SBATCH --time=00:30:00
+#SBATCH --output=/scratch/%u/instacart/logs/smoke_last_basket_%j.out
+#SBATCH --error=/scratch/%u/instacart/logs/smoke_last_basket_%j.err
+
+# ---- Environment ----
+module purge
+source /share/apps/pyenv/py3.9/etc/profile.d/conda.sh
+conda activate instacart
+
+# ---- Paths ----
+PROJECT=/scratch/$USER/instacart
+DATA=$PROJECT/data/processed
+mkdir -p $PROJECT/logs
+
+# ---- Run ----
+echo "=== smoke_last_basket  job=$SLURM_JOB_ID  node=$(hostname)  $(date) ==="
+
+python $PROJECT/src/train_last_basket.py \
+    --mode smoke \
+    --data-dir $DATA \
+    --out-dir  $PROJECT \
+    --max-train-rows 80000 \
+    --max-test-rows  20000 \
+    --run-tag smoke
+
+echo "=== Done $(date) ==="
