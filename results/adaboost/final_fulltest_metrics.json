@@ -1,0 +1,19 @@
+{
+  "metrics": {
+    "threshold": 0.45,
+    "accuracy": 0.9261300552278596,
+    "f1": 0.4179257681433729,
+    "precision": 0.4094174678276235,
+    "recall": 0.42679520349982125,
+    "roc_auc": 0.8855326025252531,
+    "pr_auc": 0.39163923731046935,
+    "n_pos_pred": 172042,
+    "n_true_pos": 165037,
+    "n_test": 2656087,
+    "model": "adaboost",
+    "source_tag": "final",
+    "tag": "final_fulltest",
+    "prediction_source": "full_test_streamed",
+    "model_path": "/scratch/dhl9434/instacart/models/adaboost/adaboost_best.pkl"
+  }
+}

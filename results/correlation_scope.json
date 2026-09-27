@@ -1,0 +1,12 @@
+{
+  "source_table": "/private/tmp/phase23_sample_codex/train.parquet",
+  "scope": "local_train_only",
+  "n_rows": 133097,
+  "n_features": 35,
+  "categorical_excluded": [
+    "aisle_id",
+    "department_id"
+  ],
+  "corr_threshold": 0.9,
+  "vif_threshold": 5.0
+}

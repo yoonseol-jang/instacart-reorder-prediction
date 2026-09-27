@@ -1,0 +1,2 @@
+base_tag,scaled_tag,metric,auc_a,auc_b,auc_diff,z,p,significant_0.05
+final_fulltest,final_fulltrain_fulltest,roc_auc_diff_scaled_minus_base,0.9006172957565296,0.8883068117234639,0.012310484033065672,80.18459426027425,0.0,True

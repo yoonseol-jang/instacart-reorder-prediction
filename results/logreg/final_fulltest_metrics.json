@@ -1,0 +1,19 @@
+{
+  "metrics": {
+    "threshold": 0.5,
+    "accuracy": 0.8763067625420402,
+    "f1": 0.3464127701562848,
+    "precision": 0.25787018525922967,
+    "recall": 0.5275544271890545,
+    "roc_auc": 0.8254425816994628,
+    "pr_auc": 0.311013172044819,
+    "n_pos_pred": 337635,
+    "n_true_pos": 165037,
+    "n_test": 2656087,
+    "model": "logreg",
+    "source_tag": "final",
+    "tag": "final_fulltest",
+    "prediction_source": "full_test_streamed",
+    "model_path": "/scratch/dhl9434/instacart/models/logreg/logreg_best.pkl"
+  }
+}

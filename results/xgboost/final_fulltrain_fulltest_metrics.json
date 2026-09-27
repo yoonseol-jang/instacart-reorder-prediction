@@ -1,0 +1,19 @@
+{
+  "metrics": {
+    "threshold": 0.5,
+    "accuracy": 0.887282306641311,
+    "f1": 0.4200110035722865,
+    "precision": 0.30870346481223604,
+    "recall": 0.6568466465095706,
+    "roc_auc": 0.9006172954281546,
+    "pr_auc": 0.43536938222840166,
+    "n_pos_pred": 351159,
+    "n_true_pos": 165037,
+    "n_test": 2656087,
+    "model": "xgboost",
+    "source_tag": "final_full",
+    "tag": "final_fulltrain_fulltest",
+    "prediction_source": "full_test_streamed",
+    "model_path": "models/xgboost/full_backup/xgboost_best_full.pkl"
+  }
+}

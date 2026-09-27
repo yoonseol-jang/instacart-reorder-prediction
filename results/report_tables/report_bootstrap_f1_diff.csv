@@ -1,0 +1,7 @@
+model_a,model_b,metric,mean_diff,ci_low,ci_high,significant_95
+logreg,rf,mean_per_order_f1_diff_a_minus_b,0.005463442697458,0.0017443965756156,0.0096475607064864,True
+logreg,adaboost,mean_per_order_f1_diff_a_minus_b,0.0065497883044428,0.0023639384590439,0.010924562850212,True
+logreg,xgboost,mean_per_order_f1_diff_a_minus_b,0.0089360697352246,0.0051162946323895,0.0131527096679518,True
+rf,adaboost,mean_per_order_f1_diff_a_minus_b,0.0010863456069848,-0.0023840418598093,0.0044406574014431,False
+rf,xgboost,mean_per_order_f1_diff_a_minus_b,0.0034726270377666,0.0005013402860267,0.0064161268841314,True
+adaboost,xgboost,mean_per_order_f1_diff_a_minus_b,0.0023862814307818,-0.0017159829412275,0.0064719494330759,False

@@ -1,0 +1,70 @@
+{
+  "imports": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "sklearn": "1.8.0",
+    "xgboost": "3.2.0",
+    "optuna": "4.8.0"
+  },
+  "parquet": {
+    "train_rows": 10651866,
+    "test_rows": 2656087,
+    "train_positive_rate": 0.06231649928754267,
+    "test_positive_rate": 0.06213538939048307,
+    "feature_count": 35
+  },
+  "validation_split": {
+    "fit_users": 44787,
+    "valid_users": 11197,
+    "user_overlap": 0
+  },
+  "fold1_logreg_leakage": {
+    "fold1_valid_f1": 0.36056105610561057,
+    "threshold": 0.16
+  },
+  "xgboost_early_stopping": {
+    "source": "/scratch/dhl9434/instacart/src/train_xgboost.py",
+    "inner_eval_set": "Xi_va",
+    "outer_score": "Xf_va"
+  },
+  "smoke_artifacts": {
+    "last_basket": [
+      "smoke_metrics.json",
+      "smoke_predictions.csv",
+      "smoke_threshold_sweep.csv"
+    ],
+    "logreg": [
+      "smoke_metrics.json",
+      "smoke_predictions.csv",
+      "smoke_threshold_sweep.csv"
+    ],
+    "rf": [
+      "smoke_metrics.json",
+      "smoke_predictions.csv",
+      "smoke_threshold_sweep.csv"
+    ],
+    "adaboost": [
+      "smoke_metrics.json",
+      "smoke_predictions.csv",
+      "smoke_threshold_sweep.csv"
+    ],
+    "xgboost": [
+      "smoke_metrics.json",
+      "smoke_predictions.csv",
+      "smoke_threshold_sweep.csv"
+    ]
+  },
+  "thresholds": {
+    "logreg": 0.19,
+    "rf": 0.23,
+    "adaboost": 0.45,
+    "xgboost": 0.5
+  },
+  "model_vs_last_basket": {
+    "last_basket": 0.2553095345684591,
+    "logreg": 0.3428354237932345,
+    "rf": 0.41713370696557245,
+    "adaboost": 0.418702023726448,
+    "xgboost": 0.3744934954148006
+  }
+}

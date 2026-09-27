@@ -1,0 +1,2 @@
+base_tag,scaled_tag,metric,mean_diff,ci_low,ci_high,significant_95
+final_fulltest,final_fulltrain_fulltest,mean_per_order_f1_diff_scaled_minus_base,0.02058610086452116,0.019064481738142482,0.022161032859778024,True

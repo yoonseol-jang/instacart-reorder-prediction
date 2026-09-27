@@ -1,0 +1,39 @@
+{
+  "metrics": {
+    "threshold": 0.5,
+    "accuracy": 0.7607733333333333,
+    "f1": 0.44462328979137,
+    "precision": 0.31324145150034893,
+    "recall": 0.7658349328214972,
+    "roc_auc": 0.8428854835372656,
+    "pr_auc": 0.47071951541533635,
+    "n_pos_pred": 22928,
+    "n_true_pos": 9378,
+    "per_order_f1": 0.24793854003205046
+  },
+  "config": {
+    "model": "logreg",
+    "mode": "final",
+    "tag": "final",
+    "best_params": {
+      "clf__C": 100,
+      "clf__class_weight": "balanced",
+      "clf__penalty": "l2"
+    },
+    "threshold_source": "grouped_validation_split",
+    "validation_metrics": {
+      "threshold": 0.5,
+      "accuracy": 0.7567345294640909,
+      "f1": 0.44577852554297953,
+      "precision": 0.31543914713999677,
+      "recall": 0.7596767887397368,
+      "roc_auc": 0.8377535479894096,
+      "pr_auc": 0.46790500741817176,
+      "n_pos_pred": 18479,
+      "n_true_pos": 7673
+    },
+    "n_train": 300000,
+    "n_test": 75000,
+    "elapsed_s": 25.8
+  }
+}

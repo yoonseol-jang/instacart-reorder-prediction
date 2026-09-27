@@ -1,0 +1,19 @@
+{
+  "metrics": {
+    "threshold": 0.47,
+    "accuracy": 0.9265532341372854,
+    "f1": 0.4218434646537391,
+    "precision": 0.4128563307073824,
+    "recall": 0.4312305725382793,
+    "roc_auc": 0.8883068064427087,
+    "pr_auc": 0.4026637058506669,
+    "n_pos_pred": 172382,
+    "n_true_pos": 165037,
+    "n_test": 2656087,
+    "model": "xgboost",
+    "source_tag": "final",
+    "tag": "final_fulltest",
+    "prediction_source": "full_test_streamed",
+    "model_path": "/scratch/dhl9434/instacart/models/xgboost/xgboost_best.pkl"
+  }
+}

@@ -1,0 +1,39 @@
+model,model_label,behavioral_error_tag,n_rows,model_rows,share_of_model_rows
+adaboost,AdaBoost,none_collapse_case,31199,75000,0.41598666666666667
+adaboost,AdaBoost,untagged,29221,75000,0.3896133333333333
+adaboost,AdaBoost,basket_size_inflation_error,9660,75000,0.1288
+adaboost,AdaBoost,fp_stockpile_error,2188,75000,0.029173333333333332
+adaboost,AdaBoost,fp_broken_streak_error,1236,75000,0.01648
+adaboost,AdaBoost,fn_sleeper_staple_error,897,75000,0.01196
+adaboost,AdaBoost,fn_new_habit_error,599,75000,0.007986666666666666
+last_basket,Last Basket,untagged,37942,75000,0.5058933333333333
+last_basket,Last Basket,basket_size_inflation_error,17842,75000,0.23789333333333335
+last_basket,Last Basket,none_collapse_case,8229,75000,0.10972
+last_basket,Last Basket,fp_stockpile_error,4521,75000,0.06028
+last_basket,Last Basket,fp_broken_streak_error,3352,75000,0.044693333333333335
+last_basket,Last Basket,fn_new_habit_error,1419,75000,0.01892
+last_basket,Last Basket,fn_sleeper_staple_error,1058,75000,0.014106666666666667
+last_basket,Last Basket,fp_recipe_novelty_error,637,75000,0.008493333333333334
+logreg,Logistic Regression,untagged,29812,75000,0.3974933333333333
+logreg,Logistic Regression,basket_size_inflation_error,27493,75000,0.3665733333333333
+logreg,Logistic Regression,none_collapse_case,9022,75000,0.12029333333333334
+logreg,Logistic Regression,fp_stockpile_error,4709,75000,0.06278666666666667
+logreg,Logistic Regression,fp_broken_streak_error,2990,75000,0.03986666666666667
+logreg,Logistic Regression,fn_sleeper_staple_error,697,75000,0.009293333333333334
+logreg,Logistic Regression,fn_new_habit_error,267,75000,0.00356
+logreg,Logistic Regression,fp_recipe_novelty_error,10,75000,0.00013333333333333334
+rf,Random Forest,none_collapse_case,31411,75000,0.4188133333333333
+rf,Random Forest,untagged,29832,75000,0.39776
+rf,Random Forest,basket_size_inflation_error,8781,75000,0.11708
+rf,Random Forest,fp_stockpile_error,2202,75000,0.02936
+rf,Random Forest,fp_broken_streak_error,1200,75000,0.016
+rf,Random Forest,fn_sleeper_staple_error,928,75000,0.012373333333333333
+rf,Random Forest,fn_new_habit_error,646,75000,0.008613333333333334
+xgboost,XGBoost,none_collapse_case,31271,75000,0.4169466666666667
+xgboost,XGBoost,untagged,28813,75000,0.3841733333333333
+xgboost,XGBoost,basket_size_inflation_error,10118,75000,0.13490666666666667
+xgboost,XGBoost,fp_stockpile_error,2064,75000,0.02752
+xgboost,XGBoost,fp_broken_streak_error,1167,75000,0.01556
+xgboost,XGBoost,fn_sleeper_staple_error,857,75000,0.011426666666666667
+xgboost,XGBoost,fn_new_habit_error,708,75000,0.00944
+xgboost,XGBoost,fp_recipe_novelty_error,2,75000,2.6666666666666667e-05

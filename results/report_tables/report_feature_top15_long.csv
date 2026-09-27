@@ -1,0 +1,61 @@
+feature_name,importance_score,model,model_label,rank
+target_days_since_prior,0.2169627155023053,adaboost,AdaBoost,1
+up_dow_purchase_count,0.2155215796819416,adaboost,AdaBoost,2
+up_purchase_count_n5,0.1364187766560192,adaboost,AdaBoost,3
+up_reorder_rate_after_first,0.0762966272549461,adaboost,AdaBoost,4
+prod_reorder_probability,0.0593572842886961,adaboost,AdaBoost,5
+target_hour,0.0569781661692533,adaboost,AdaBoost,6
+up_orders_since_last,0.039899616401088,adaboost,AdaBoost,7
+target_dow,0.0348293613811769,adaboost,AdaBoost,8
+up_days_since_last,0.02698532060316,adaboost,AdaBoost,9
+up_order_ratio_by_chance,0.0245182682527334,adaboost,AdaBoost,10
+up_streak,0.0137330979381288,adaboost,AdaBoost,11
+user_reorder_ratio,0.0137056427606199,adaboost,AdaBoost,12
+prod_avg_orders_between,0.0124962884518383,adaboost,AdaBoost,13
+prod_total_purchases,0.0086908977117412,adaboost,AdaBoost,14
+up_first_order_number,0.0084862223270775,adaboost,AdaBoost,15
+up_dow_purchase_count,17.096203084857883,logreg,Logistic Regression,1
+up_days_since_last,2.661812612830025,logreg,Logistic Regression,2
+up_purchase_count_n5,1.5982975775260468,logreg,Logistic Regression,3
+up_avg_days_between,1.5697124389761394,logreg,Logistic Regression,4
+up_avg_cart_position,1.2721474747140151,logreg,Logistic Regression,5
+up_orders_since_last,1.22963691247925,logreg,Logistic Regression,6
+up_purchase_count,1.1949804724791424,logreg,Logistic Regression,7
+user_total_orders,1.0080884774159355,logreg,Logistic Regression,8
+user_reorder_ratio,0.9315470592509092,logreg,Logistic Regression,9
+prod_reorder_ratio,0.8947991653448674,logreg,Logistic Regression,10
+up_order_ratio_by_chance,0.7145147682256233,logreg,Logistic Regression,11
+target_days_since_prior,0.7094282901518459,logreg,Logistic Regression,12
+up_reorder_rate_after_first,0.6055575888719548,logreg,Logistic Regression,13
+user_std_basket_size,0.5733907979809049,logreg,Logistic Regression,14
+up_streak,0.5618876951085572,logreg,Logistic Regression,15
+up_dow_purchase_count,0.1023834290476023,rf,Random Forest,1
+target_days_since_prior,0.0907846079269645,rf,Random Forest,2
+up_reorder_rate_after_first,0.0803468268876467,rf,Random Forest,3
+target_hour,0.0628625878601944,rf,Random Forest,4
+up_purchase_count_n5,0.0597711947351441,rf,Random Forest,5
+up_days_since_last,0.0521891621450108,rf,Random Forest,6
+target_dow,0.0520867845880749,rf,Random Forest,7
+up_orders_since_last,0.0384310736102273,rf,Random Forest,8
+up_orders_since_last_n5,0.0351744984103332,rf,Random Forest,9
+up_avg_days_between,0.0238960208969123,rf,Random Forest,10
+up_purchase_count,0.0228676623916477,rf,Random Forest,11
+up_order_ratio_by_chance,0.0208902025887104,rf,Random Forest,12
+prod_reorder_probability,0.0206852296265888,rf,Random Forest,13
+prod_reorder_ratio,0.0204333563817588,rf,Random Forest,14
+up_streak,0.0201120150124502,rf,Random Forest,15
+target_dow,0.2355160415172577,xgboost,XGBoost,1
+up_purchase_count_n5,0.2169483006000518,xgboost,XGBoost,2
+up_reorder_rate_after_first,0.1192134097218513,xgboost,XGBoost,3
+target_hour,0.0399676412343978,xgboost,XGBoost,4
+up_dow_purchase_count,0.02817246876657,xgboost,XGBoost,5
+up_orders_since_last,0.0264157522469759,xgboost,XGBoost,6
+up_streak,0.0261835195124149,xgboost,XGBoost,7
+up_days_since_last,0.0195735991001129,xgboost,XGBoost,8
+up_orders_since_last_n5,0.0193555001169443,xgboost,XGBoost,9
+target_days_since_prior,0.0149724781513214,xgboost,XGBoost,10
+up_order_ratio_by_chance,0.0124082341790199,xgboost,XGBoost,11
+user_total_orders,0.0120603824034333,xgboost,XGBoost,12
+prod_reorder_probability,0.0112717589363455,xgboost,XGBoost,13
+up_purchase_count,0.0111821684986352,xgboost,XGBoost,14
+up_last_order_number,0.0106752114370465,xgboost,XGBoost,15

@@ -1,0 +1,10 @@
+figure,report_use,path
+01_model_metrics.png,Main performance comparison,/Users/davidlee/Desktop/NYU 2026 Spring/1003/1003_final_project/instacart/plots/report/01_model_metrics.png
+02_error_rates.png,FP/FN interpretation,/Users/davidlee/Desktop/NYU 2026 Spring/1003/1003_final_project/instacart/plots/report/02_error_rates.png
+03_effect_sizes_vs_rf.png,Practical effect-size discussion,/Users/davidlee/Desktop/NYU 2026 Spring/1003/1003_final_project/instacart/plots/report/03_effect_sizes_vs_rf.png
+04_basket_metrics.png,Per-order/basket-level interpretation,/Users/davidlee/Desktop/NYU 2026 Spring/1003/1003_final_project/instacart/plots/report/04_basket_metrics.png
+05_model_disagreement_overlap.png,Error-overlap and ensemble potential,/Users/davidlee/Desktop/NYU 2026 Spring/1003/1003_final_project/instacart/plots/report/05_model_disagreement_overlap.png
+06_subgroup_f1.png,Subgroup robustness,/Users/davidlee/Desktop/NYU 2026 Spring/1003/1003_final_project/instacart/plots/report/06_subgroup_f1.png
+07_behavioral_error_tags.png,Behavioral error taxonomy,/Users/davidlee/Desktop/NYU 2026 Spring/1003/1003_final_project/instacart/plots/report/07_behavioral_error_tags.png
+08_feature_importance_top15.png,Feature reliance by model,/Users/davidlee/Desktop/NYU 2026 Spring/1003/1003_final_project/instacart/plots/report/08_feature_importance_top15.png
+09_feature_top10_overlap.png,Option A shared-feature design payoff,/Users/davidlee/Desktop/NYU 2026 Spring/1003/1003_final_project/instacart/plots/report/09_feature_top10_overlap.png

@@ -1,0 +1,2 @@
+base_tag,scaled_tag,scaled_right_base_wrong,scaled_wrong_base_right,mcnemar_chi2,p,significant_0.05
+final_fulltest,final_fulltrain_fulltest,40704,145011,58582.99887461971,0.0,True

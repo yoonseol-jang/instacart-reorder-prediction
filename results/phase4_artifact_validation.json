@@ -1,0 +1,49 @@
+{
+  "thresholds": {
+    "logreg": 0.5,
+    "rf": 0.43,
+    "adaboost": 0.45,
+    "xgboost": 0.47
+  },
+  "models": {
+    "logreg": {
+      "metrics": "/scratch/dhl9434/instacart/results/logreg/final_metrics.json",
+      "predictions": "/scratch/dhl9434/instacart/results/logreg/final_predictions.csv",
+      "threshold_sweep": "/scratch/dhl9434/instacart/results/logreg/final_threshold_sweep.csv",
+      "validation_threshold_sweep": "/scratch/dhl9434/instacart/results/logreg/final_validation_threshold_sweep.csv",
+      "best_model": "/scratch/dhl9434/instacart/models/logreg/logreg_best.pkl",
+      "feature_importance": "/scratch/dhl9434/instacart/results/logreg/feature_importance_logreg.csv"
+    },
+    "rf": {
+      "metrics": "/scratch/dhl9434/instacart/results/rf/final_metrics.json",
+      "predictions": "/scratch/dhl9434/instacart/results/rf/final_predictions.csv",
+      "threshold_sweep": "/scratch/dhl9434/instacart/results/rf/final_threshold_sweep.csv",
+      "validation_threshold_sweep": "/scratch/dhl9434/instacart/results/rf/final_validation_threshold_sweep.csv",
+      "best_model": "/scratch/dhl9434/instacart/models/rf/rf_best.pkl",
+      "feature_importance": "/scratch/dhl9434/instacart/results/rf/feature_importance_rf.csv"
+    },
+    "adaboost": {
+      "metrics": "/scratch/dhl9434/instacart/results/adaboost/final_metrics.json",
+      "predictions": "/scratch/dhl9434/instacart/results/adaboost/final_predictions.csv",
+      "threshold_sweep": "/scratch/dhl9434/instacart/results/adaboost/final_threshold_sweep.csv",
+      "validation_threshold_sweep": "/scratch/dhl9434/instacart/results/adaboost/final_validation_threshold_sweep.csv",
+      "best_model": "/scratch/dhl9434/instacart/models/adaboost/adaboost_best.pkl",
+      "feature_importance": "/scratch/dhl9434/instacart/results/adaboost/feature_importance_adaboost.csv"
+    },
+    "xgboost": {
+      "metrics": "/scratch/dhl9434/instacart/results/xgboost/final_metrics.json",
+      "predictions": "/scratch/dhl9434/instacart/results/xgboost/final_predictions.csv",
+      "threshold_sweep": "/scratch/dhl9434/instacart/results/xgboost/final_threshold_sweep.csv",
+      "validation_threshold_sweep": "/scratch/dhl9434/instacart/results/xgboost/final_validation_threshold_sweep.csv",
+      "best_model": "/scratch/dhl9434/instacart/models/xgboost/xgboost_best.pkl",
+      "feature_importance": "/scratch/dhl9434/instacart/results/xgboost/feature_importance_xgboost.csv"
+    }
+  },
+  "model_vs_last_basket": {
+    "last_basket": 0.3701042296609868,
+    "logreg": 0.44462328979137,
+    "rf": 0.5685988133272478,
+    "adaboost": 0.5629846249279986,
+    "xgboost": 0.5587105321262972
+  }
+}
