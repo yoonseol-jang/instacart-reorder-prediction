@@ -1,4 +1,4 @@
-# Next-Basket Prediction & KPI Evaluation
+# Next-Basket Reorder Prediction & Controlled Error Analysis
 
 Controlled benchmark of five next-basket reorder models on the Instacart Market Basket dataset, with a focus on how evaluation metric choice affects model selection decisions.
 
