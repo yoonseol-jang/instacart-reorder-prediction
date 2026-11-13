@@ -14,6 +14,6 @@
     "source_tag": "final",
     "tag": "final_fulltest",
     "prediction_source": "full_test_streamed",
-    "model_path": "/scratch/dhl9434/instacart/models/adaboost/adaboost_best.pkl"
+    "model_path": "models/adaboost/adaboost_best.pkl"
   }
 }

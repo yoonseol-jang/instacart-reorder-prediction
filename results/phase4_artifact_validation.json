@@ -7,36 +7,36 @@
   },
   "models": {
     "logreg": {
-      "metrics": "/scratch/dhl9434/instacart/results/logreg/final_metrics.json",
-      "predictions": "/scratch/dhl9434/instacart/results/logreg/final_predictions.csv",
-      "threshold_sweep": "/scratch/dhl9434/instacart/results/logreg/final_threshold_sweep.csv",
-      "validation_threshold_sweep": "/scratch/dhl9434/instacart/results/logreg/final_validation_threshold_sweep.csv",
-      "best_model": "/scratch/dhl9434/instacart/models/logreg/logreg_best.pkl",
-      "feature_importance": "/scratch/dhl9434/instacart/results/logreg/feature_importance_logreg.csv"
+      "metrics": "results/logreg/final_metrics.json",
+      "predictions": "results/logreg/final_predictions.csv",
+      "threshold_sweep": "results/logreg/final_threshold_sweep.csv",
+      "validation_threshold_sweep": "results/logreg/final_validation_threshold_sweep.csv",
+      "best_model": "models/logreg/logreg_best.pkl",
+      "feature_importance": "results/logreg/feature_importance_logreg.csv"
     },
     "rf": {
-      "metrics": "/scratch/dhl9434/instacart/results/rf/final_metrics.json",
-      "predictions": "/scratch/dhl9434/instacart/results/rf/final_predictions.csv",
-      "threshold_sweep": "/scratch/dhl9434/instacart/results/rf/final_threshold_sweep.csv",
-      "validation_threshold_sweep": "/scratch/dhl9434/instacart/results/rf/final_validation_threshold_sweep.csv",
-      "best_model": "/scratch/dhl9434/instacart/models/rf/rf_best.pkl",
-      "feature_importance": "/scratch/dhl9434/instacart/results/rf/feature_importance_rf.csv"
+      "metrics": "results/rf/final_metrics.json",
+      "predictions": "results/rf/final_predictions.csv",
+      "threshold_sweep": "results/rf/final_threshold_sweep.csv",
+      "validation_threshold_sweep": "results/rf/final_validation_threshold_sweep.csv",
+      "best_model": "models/rf/rf_best.pkl",
+      "feature_importance": "results/rf/feature_importance_rf.csv"
     },
     "adaboost": {
-      "metrics": "/scratch/dhl9434/instacart/results/adaboost/final_metrics.json",
-      "predictions": "/scratch/dhl9434/instacart/results/adaboost/final_predictions.csv",
-      "threshold_sweep": "/scratch/dhl9434/instacart/results/adaboost/final_threshold_sweep.csv",
-      "validation_threshold_sweep": "/scratch/dhl9434/instacart/results/adaboost/final_validation_threshold_sweep.csv",
-      "best_model": "/scratch/dhl9434/instacart/models/adaboost/adaboost_best.pkl",
-      "feature_importance": "/scratch/dhl9434/instacart/results/adaboost/feature_importance_adaboost.csv"
+      "metrics": "results/adaboost/final_metrics.json",
+      "predictions": "results/adaboost/final_predictions.csv",
+      "threshold_sweep": "results/adaboost/final_threshold_sweep.csv",
+      "validation_threshold_sweep": "results/adaboost/final_validation_threshold_sweep.csv",
+      "best_model": "models/adaboost/adaboost_best.pkl",
+      "feature_importance": "results/adaboost/feature_importance_adaboost.csv"
     },
     "xgboost": {
-      "metrics": "/scratch/dhl9434/instacart/results/xgboost/final_metrics.json",
-      "predictions": "/scratch/dhl9434/instacart/results/xgboost/final_predictions.csv",
-      "threshold_sweep": "/scratch/dhl9434/instacart/results/xgboost/final_threshold_sweep.csv",
-      "validation_threshold_sweep": "/scratch/dhl9434/instacart/results/xgboost/final_validation_threshold_sweep.csv",
-      "best_model": "/scratch/dhl9434/instacart/models/xgboost/xgboost_best.pkl",
-      "feature_importance": "/scratch/dhl9434/instacart/results/xgboost/feature_importance_xgboost.csv"
+      "metrics": "results/xgboost/final_metrics.json",
+      "predictions": "results/xgboost/final_predictions.csv",
+      "threshold_sweep": "results/xgboost/final_threshold_sweep.csv",
+      "validation_threshold_sweep": "results/xgboost/final_validation_threshold_sweep.csv",
+      "best_model": "models/xgboost/xgboost_best.pkl",
+      "feature_importance": "results/xgboost/feature_importance_xgboost.csv"
     }
   },
   "model_vs_last_basket": {

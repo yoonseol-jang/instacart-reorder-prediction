@@ -23,7 +23,7 @@
     "threshold": 0.16
   },
   "xgboost_early_stopping": {
-    "source": "/scratch/dhl9434/instacart/src/train_xgboost.py",
+    "source": "src/train_xgboost.py",
     "inner_eval_set": "Xi_va",
     "outer_score": "Xf_va"
   },
